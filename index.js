@@ -74,8 +74,8 @@ Module.prototype.invalidateByPath = function(path) {
 
 Module.prototype.invalidate = function() {
 
-	if ( !this.invalidable )
-		return;
+// 	if ( !this.invalidable )
+// 		return;
 	
 	if ( invalidateCallbacksSym in this ) {
 		
